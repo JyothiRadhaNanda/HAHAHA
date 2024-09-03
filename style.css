@@ -32,6 +32,7 @@ body {
   background-color: red;
   border-radius: 10px;
   border: none;
+  transition: left 0.5s ease, top 0.5s ease;
 }
 .ya {
   background-color: green;
@@ -48,5 +49,15 @@ body {
 }
 
 .vivo {
+  display: none;
+}
+
+#tempatSampah {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.hidden {
   display: none;
 }
